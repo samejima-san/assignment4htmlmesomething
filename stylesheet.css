@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1, .navbar h1{
+    font-size: xx-large;
+}
+
+body{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.navbar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero{
+    background-image: url("https://t3.ftcdn.net/jpg/04/08/26/12/360_F_408261258_32cMh8U4hK43AB8skraQLjHoAZv08Et1.jpg");
+    width: 90%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 1px 1px #070707a4;
+}
+
+section{
+    width: 90%;
+}
+
+#center{
+    margin-top: 1%;
+}
+
+#capsule{
+    display: flex;
+    justify-content: space-around;
+}
+
+.block{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.block img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.block p{
+    font-size: medium;
+    margin-top: 5%;
+}
+
+
+article{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+article p{
+    margin-top: 5%;
+    width: 80%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #ffbb62e8;
+    width: 90%;
+    height:50px;
+}
+
+.navbar h1{
+    font: Chicago;
+}
+
+#tabs{
+    width: 300px;
+    color: black;
+    font: Chicago;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#tabs a{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0%;
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#tabs a:hover{
+    background-color: #ffbb62e8;
+    color: white;
+
+}
+
+
+
+
+
+
